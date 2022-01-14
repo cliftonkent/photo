@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightslategrey;
+}
+header {
+    font-family: "Dongle";
+    text-align: center;
+    background-color: lightgray;
+    font-size: 5rem;
+}
+.photocontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+.photo {
+    position: absolute;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+
+#photo1 {
+    z-index: 10;
+}
+#photo2 {
+    z-index: 7;
+}
+#photo3 {
+    z-index: 5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25rem;
+}
+.prev, .next {
+    background-color: black;
+    color: wheat;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.prev {
+    margin-right: .5rem;
+}
+.next {
+    margin-left: .5rem;
+}
